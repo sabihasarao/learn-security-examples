@@ -1,1 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+
+Spoofing is a cybersecurity vulnerability where attackers imitate trusted entities to deraud users and gain unauthorized access.
+ Secure versions fight this by using authentication and encryption protocols, 
+ such as two-factor authentication. These measures ensure the integrity 
+ and authenticity of data providing confidentiality.

@@ -1,0 +1,4 @@
+Tampering is a hreat to data integrity, including unauthorized changes with malicious intent. 
+Hash functions and digital signatures prevent tampering. Access controls and detect tampering attempts,
+ ensuring the integrity and security of data and systems.
+ Tampering violates the integrity aspect of the CIA, endangering information
