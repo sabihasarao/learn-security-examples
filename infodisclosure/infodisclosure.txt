@@ -1,3 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+
+The vulnerability is an NoSQL injection flaw, from directly using user-provided input (username parameter) 
+in the  query without proper validation. This allows attackers to
+ execute arbitrary queries, endangering unauthorized access to sensitive data.
+ Additional security measures to consider include input validation, strong authentication,
+encryption, and access control, 

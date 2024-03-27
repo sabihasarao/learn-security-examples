@@ -1,0 +1,4 @@
+
+The vulnerability is a privilege escalation flaw. It happens when the server relies on the user's role in the request body, allowing any user to modify their role to
+ 'admin' and escalate their privileges.The secure version utilizes sessions for user identity verification, preventing this vulnerability by maintaining authentication state 
+ on the server-side.Security measures include proper authentication mechanisms, role-based access control and  input validation

@@ -1,2 +1,9 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+
+The vulnerability in the provided code is a NoSQL injection flaw.
+ Its from incorporating user input (id parameter) into a MongoDB query without properly validating. 
+ Attackers can exploit this to execute unauthorized queries, potentially compromising data security.
+ Additional security measures are input validation, authorization checks, rate limiting, audit logging.
